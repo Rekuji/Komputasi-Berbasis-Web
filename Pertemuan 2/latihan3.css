@@ -1,0 +1,75 @@
+ 
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+body {
+    background-color: #538d9e;
+    margin: 0%;
+}
+
+.image img {
+    width: 100%;
+    
+}
+
+.berita {
+    display:inline-block;
+}
+
+.berita img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(157, 248, 255) 5px dashed;
+}
+
+.berita p{
+    width: 100%;
+    margin-top: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.berita h2{
+    width: 100%;
+    margin-bottom: 1%;
+
+}
+
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 90, 105);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-top: rgb(157, 248, 255) 5px solid;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer .satu {
+    padding-right: 50px;
+    float: left;
+}
