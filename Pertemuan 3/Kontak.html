@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontak Deez</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: lightblue;
+    }
+    h1 {
+      color: white;
+    }
+    a {
+      color: rgb(26, 0, 143);
+      text-decoration: none;
+    }
+    a:hover {
+      color: rgb(249, 249, 249);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Kontak Kami</h1>
+    <p class="font-weight-bold" style="font-family: verdana; font-size: 20px;">Masukkan :</p>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" class="form-control" id="nama" name="fname">
+      </div>
+      <div class="form-group">
+        <label for="mail">Email:</label>
+        <input type="text" class="form-control" id="mail" name="lname">
+      </div>
+      <p class="font-weight-bold" style="font-family: verdana; font-size: 20px;">Jenis Kelamin :</p>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="laki" name="gender" value="Jantan">
+        <label class="form-check-label" for="laki">Laki-laki</label>
+      </div>
+      <div class="form-check"></div>
+        <input type="radio" class="form-check-input" id="perem" name="gender" value="Betina">
+        <label class="form-check-label" for="perem">Perempuan</label>
+      </div>
+      <p class="font-weight-bold" style="font-family: verdana; font-size: 20px;">Hobby :</p>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="hobby1" name="hobby1" value="game">
+        <label class="form-check-label" for="hobby1">Gaming</label>
+      </div>
+      <div class="form-check"></div>
+        <input type="checkbox" class="form-check-input" id="hobby2" name="hobby2" value="jual">
+        <label class="form-check-label" for="hobby2">Jualan</label>
+      </div>
+      <div class="form-check"></div>
+        <input type="checkbox" class="form-check-input" id="hobby3" name="hobby3" value="mandi">
+        <label class="form-check-label" for="hobby3">Mandi</label>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-secondary">Reset</button>
+    </form>
+    <br>
+    <a href="Intro.html">Balik ke Dashboard</a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
